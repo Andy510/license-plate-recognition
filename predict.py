@@ -534,6 +534,6 @@ class CardPredictor:
 if __name__ == '__main__':
 	c = CardPredictor()
 	c.train_svm()
-	r, roi, color = c.predict("黑A16341.jpg")
+	r, roi, color = c.predict("11.jpg")
 	print(r)
 	
